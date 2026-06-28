@@ -12,19 +12,17 @@ A key design principle of the project is the independent analysis of retinal ima
 ## Screenshots
 
 ### Dashboard Overview
-*(Dashboard Screenshot)*
-
-### Disease Information
-*(Disease Information Screenshot)*
+![Dashboard Overview](screenshots/dashboard1.png)
 
 ### Patient Upload Interface
-*(Upload Screen Screenshot)*
+![Patient Upload Interface](screenshots/dashboard2.png)
 
 ### Prediction Results
-*(Prediction Results Screenshot)*
+![Prediction Result 1](screenshots/result1.png)
+![Prediction Result 2](screenshots/result2.png)
 
 ### Prediction History
-*(History Dashboard Screenshot)*
+![Prediction History](screenshots/history.png)
 
 ---
 
