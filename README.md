@@ -9,7 +9,7 @@ A key design principle of the project is the independent analysis of retinal ima
 
 ---
 
-## Screenshots
+# Screenshots
 
 ### Dashboard Overview
 ![Dashboard Overview](screenshots/dashboard1.png)
@@ -26,10 +26,10 @@ A key design principle of the project is the independent analysis of retinal ima
 
 ---
 
-## System Architecture
+# System Architecture
 *(Insert System Architecture Diagram Here)*
 
-### Request Flow
+# Request Flow
 1. User uploads a retinal fundus image and enters clinical biomarkers including HbA1c, fasting glucose, cholesterol, duration of diabetes, and age.
 2. The React frontend sends the image and clinical data to the Flask backend.
 3. The backend preprocesses the retinal image and standardizes the clinical features.
@@ -41,7 +41,7 @@ A key design principle of the project is the independent analysis of retinal ima
 
 ---
 
-## Core Features
+# Core Features
 
 ### Multimodal Disease Detection
 - Early diabetic retinopathy screening using retinal fundus images
@@ -78,7 +78,7 @@ A key design principle of the project is the independent analysis of retinal ima
 
 ---
 
-## Model Performance
+# Model Performance
 
 The proposed multimodal framework was evaluated on both an internal test set and an external validation dataset. The final fusion model combines calibrated image and clinical predictions using an uncertainty-aware late fusion strategy.
 
@@ -96,7 +96,7 @@ The fusion model achieved a balanced performance by combining retinal image feat
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 ### Frontend
 - React.js
@@ -128,7 +128,7 @@ The fusion model achieved a balanced performance by combining retinal image feat
 
 ---
 
-## Installation
+# Installation
 
 ### Clone Repository
 ```bash
@@ -159,7 +159,7 @@ npm run dev
 
 ---
 
-## Future Improvements
+# Future Improvements
 - Support multi-stage diabetic retinopathy classification (Stages 0–4)
 - Validate the model on larger real-world clinical datasets
 - Integrate Optical Coherence Tomography (OCT) imaging
@@ -169,7 +169,7 @@ npm run dev
 
 ---
 
-## Project Highlights
+# Project Highlights
 
 ✅ Explainable Multimodal AI Architecture  
 ✅ EfficientNet-B4 Image Classification  
