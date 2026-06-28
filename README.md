@@ -27,9 +27,9 @@ A key design principle of the project is the independent analysis of retinal ima
 ---
 
 # System Architecture
-*(Insert System Architecture Diagram Here)*
+![System Architecture](screenshots/architecture.png)
 
-# Request Flow
+### Request Flow
 1. User uploads a retinal fundus image and enters clinical biomarkers including HbA1c, fasting glucose, cholesterol, duration of diabetes, and age.
 2. The React frontend sends the image and clinical data to the Flask backend.
 3. The backend preprocesses the retinal image and standardizes the clinical features.
