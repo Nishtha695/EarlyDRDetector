@@ -45,33 +45,33 @@ A key design principle of the project is the independent analysis of retinal ima
 
 ## Core Features
 
-### 🔬 Multimodal Disease Detection
+### Multimodal Disease Detection
 - Early diabetic retinopathy screening using retinal fundus images
 - Clinical biomarker-based disease assessment
 - Stage 0 vs Stage 1 diabetic retinopathy classification
 - Uncertainty-aware late fusion prediction
 
-### 🧠 Explainable AI
+### Explainable AI
 - Grad-CAM retinal heatmap visualization
 - SHAP-based clinical feature importance
 - Visual explanation of model predictions
 - Transparent and interpretable AI decisions
 
-### ⚙️ Intelligent Prediction Pipeline
+### Intelligent Prediction Pipeline
 - Independent image and clinical probability estimation
 - Platt Scaling probability calibration
 - Entropy-based uncertainty estimation
 - Uncertainty-aware late fusion
 - Disease progression prediction
 
-### 💻 Interactive Dashboard
+### Interactive Dashboard
 - Modern React-based web interface
 - Retinal image upload
 - Clinical data entry
 - Real-time prediction visualization
 - Patient-friendly disease information
 
-### 📋 Prediction History
+### Prediction History
 - Prediction history management
 - Stored patient records
 - Chronological prediction tracking
@@ -141,11 +141,14 @@ cd EarlyDRDetector
 ### Backend
 ```bash
 cd backend
+
 python -m venv venv
 
 # Windows
 venv\Scripts\activate
+
 pip install -r requirements.txt
+
 python main.py
 ```
 
